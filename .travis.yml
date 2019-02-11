@@ -1,6 +1,6 @@
 sudo: required
 language: php
-php
+php:
  - 5.2
 
 before_script:
