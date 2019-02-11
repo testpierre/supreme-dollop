@@ -1,0 +1,12 @@
+sudo: required
+language: php
+php
+ - 5.2
+
+before_script:
+ - cat uname -a
+ - ls -lah /etc/apt/
+ - find /etc/apt
+ 
+script:
+  - cat /etc/apt/sources.list
