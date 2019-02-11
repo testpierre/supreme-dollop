@@ -5,7 +5,7 @@ php:
  - 5.2
 
 before_script:
- - cat uname -a
+ - uname -a
  - ls -lah /etc/apt/
  - find /etc/apt
  
